@@ -1,6 +1,6 @@
 img {
-    width: 150px;
-    height: 200px;
+    width: 125px;
+    height: 175px;
 }
 
 .body-background {
@@ -9,10 +9,6 @@ img {
 
 * {
     font-weight: 700;
-}
-
-img {
-    max-width: 100%;
 }
 
 .content-container {
@@ -37,7 +33,6 @@ img {
 .bold {
     font-weight: bold;
     background: rgba(200, 200, 200, 0.3)
-    
 }
 
 .call-to-action {
