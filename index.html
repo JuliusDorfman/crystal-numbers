@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Crystal Game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src='./assets/javascript/game.js'></script>
+</head>
+
+<body class='body-background'>
+    <div class="content-container">
+        <div class='container container-jumbotron'>
+            <header class='jumbotron'>
+                <h1>Crystal Game</h1>
+                <h2>The Hardest Game
+                    <span>(and mineral)</span> on Earth!</h2>
+                <h4>On game start you will be given 3,4,5, or 6 crystals. Each with different values.</h4>
+                <h4>Click each crystal to discover their value and try to match your Goal Haul!</h4>
+                <h4>Beware: greed never pays! If Your Amassed Wealth goes over your Goal Haul, YOU LOSE!</h4>
+            </header>
+        </div>
+        <div class='container'>
+            <div class='row'>
+                <div class='col-md-3 bold'>
+                    <hr>
+                    <span>Goal Haul: </span>
+                    <span class='goal-number'></span>
+                    <hr>
+                    <span>Your Amassed Wealth: </span>
+                    <span class='added-value'></span>
+                    <hr>
+                    <span>Wins: </span>
+                    <span class='win-counter'></span>
+                    <hr>
+                    <span>Losses: </span>
+                    <span class='loss-counter'></span>
+                </div>
+                <!-- <div class='col-md-9'>
+                <span>Hit the reset button to start over:</span>
+                <input class='btn btn-danger' type="button" value="Reset Button" onClick="window.location.reload()">
+            </div> -->
+            </div>
+        </div>
+        <div class='container'>
+            <div class='temp'>
+                <div class='crystals-container'>
+                    <div class='crystals-parent' id='crystals'> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

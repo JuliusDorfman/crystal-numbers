@@ -1,0 +1,75 @@
+img {
+    width: 150px;
+    height: 200px;
+}
+
+.body-background {
+    background-image: url('../images/redbackground.jpg');
+}
+
+* {
+    font-weight: 700;
+}
+
+img {
+    max-width: 100%;
+}
+
+.content-container {
+    padding: 3% 10% 3% 10%;
+    margin: 3% 10% 3% 10%;
+    background: white;
+    background-image: url('../images/bluebackground.jpg')
+}
+
+.container {
+    width: inherit;
+}
+
+.jumbotron {
+    background: rgba(200, 200, 200, 0.3)
+}
+
+#winning-num {
+    font-size: 2.5em;
+}
+
+.bold {
+    font-weight: bold;
+    background: rgba(200, 200, 200, 0.3)
+    
+}
+
+.call-to-action {
+    margin-top: 100px;
+}
+
+.added-value {
+    margin: 0;
+}
+
+.crystalSize button {
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    margin: .2rem;
+}
+
+hr {
+    margin: 5px;
+}
+
+h2 span {
+    font-size: .4em;
+}
+
+/* Crystals */
+
+.crystals-parent {
+    text-align: center
+}
+
+.crystals-parent>* {
+    display: inline;
+}
