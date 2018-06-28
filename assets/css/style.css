@@ -23,11 +23,16 @@ img {
 }
 
 .jumbotron {
-    background: rgba(200, 200, 200, 0.3)
+    background: rgba(200, 200, 200, 0.3);
+    padding: 60px 20px 60px 20px;
 }
 
 #winning-num {
     font-size: 2.5em;
+}
+
+ul > li {
+    list-style: none;
 }
 
 .bold {

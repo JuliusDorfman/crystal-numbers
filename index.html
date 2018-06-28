@@ -10,43 +10,36 @@
 </head>
 
 <body class='body-background'>
-    <div class="content-container">
-        <div class='container container-jumbotron'>
+    <section class="content-container">
             <header class='jumbotron'>
                 <h1>Crystal Game</h1>
-                <h2>The Hardest Game
-                    <span>(and mineral)</span> on Earth!</h2>
-                <h4>On game start you will be given 3,4,5, or 6 crystals. Each with different values.</h4>
-                <h4>Click each crystal to discover their value and try to match your Goal Haul!</h4>
-                <h4>Beware: Greed never pays! If Your Amassed Wealth goes over your Goal Haul, YOU LOSE!</h4>
+                <h2>The Hardest Game<span>(and mineral)</span> on Earth!</h2>
+                <p>On game start you will be given 3,4,5, or 6 crystals. Each with different values.</p>
+                <p>Click each crystal to discover their value and try to match your Goal Haul!</p>
+                <p>Beware: Greed never pays! If Your Amassed Wealth goes over your Goal Haul, YOU LOSE!</p>
             </header>
-        </div>
-        <div class='container'>
+        <article class='container'>
             <div class='row'>
-                <div class='col-md-3 bold'>
+                <ul class='col-md-3 bold'>
                     <hr>
-                    <span>Goal Haul: </span>
-                    <span class='goal-number'></span>
+                    <li>Goal Haul: <span class='goal-number' /></li>
                     <hr>
-                    <span>Your Amassed Wealth: </span>
-                    <span class='added-value'></span>
+                    <li>Your Amassed Wealth: <span class='added-value' /></li>
                     <hr>
-                    <span>Wins: </span>
-                    <span class='win-counter'></span>
+                    <li>Wins: <span class='win-counter' /></li>
                     <hr>
-                    <span>Losses: </span>
-                    <span class='loss-counter'></span>
-                </div>
+                    <li>Losses: <span class='loss-counter' /></li>
+                </ul>
                 <!-- <div class='col-md-9'>
                 <span>Hit the reset button to start over:</span>
                 <input class='btn btn-danger' type="button" value="Reset Button" onClick="window.location.reload()">
             </div> -->
             </div>
-        </div>
-        <div class='crystals-container'>
-            <div class='crystals-parent' id='crystals'> </div>
-        </div>
-    </div>
+            </div>
+            <div class='crystals-container'>
+                <div class='crystals-parent' id='crystals'> </div>
+            </div>
+    </section>
 </body>
 
 </html>
